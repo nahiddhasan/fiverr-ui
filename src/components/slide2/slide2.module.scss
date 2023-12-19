@@ -1,0 +1,66 @@
+.slide2{
+display: flex;
+justify-content: center;
+  .container{
+
+    width: 1350px;
+
+    padding: 100px 20px;
+    background-color: #f5f5f5;
+    h1{
+      color: #404145;
+      padding-bottom: 24px;
+      font-weight: 700;
+      font-size: 32px;
+  }
+    .mySwiper{
+        
+      .slideContent{
+        height: 344px ;
+        width: 252px;
+        border-radius: 7px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        cursor: pointer;
+        background-color: white;
+        .imgcontainer{
+          height: 80%;
+          img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+          
+        }
+        .infoContainer{
+          height: 20%;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          img{
+            border-radius: 50%;
+            object-fit: cover;
+          }
+          .info{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .name{
+              font-weight: bold;
+              color:#5a5e68;
+            }
+            .cat{
+              color: rgb(149, 151, 157);
+            }
+          }
+        
+        }
+        
+      }
+    }
+    
+    
+}
+}

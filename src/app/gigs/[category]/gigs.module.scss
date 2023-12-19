@@ -1,0 +1,30 @@
+.gigs{
+
+    .container{
+        width: 1350px;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .breadcrumbs{
+            font-weight: 300;
+            font-size: 14px;
+            color: #555;
+            text-transform: uppercase;
+        }
+        h1{
+
+        }
+        p{
+            font-weight: 300;
+            color: #999;
+
+        }
+
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}

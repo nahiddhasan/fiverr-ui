@@ -1,0 +1,51 @@
+.slide{
+display: flex;
+justify-content: center;
+  .container{
+
+    width: 1350px;
+    padding:0 20px;
+    margin: 100px 0;
+   
+    h1{
+      color: #404145;
+      padding-bottom: 24px;
+      font-weight: 700;
+      font-size: 32px;
+  }
+    .mySwiper{
+        
+      .slideContent{
+        height: 344px ;
+        width: 252px;
+        border-radius: 7px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        img{
+          object-fit: cover;
+        }
+        .info{
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 15px;
+          left: 15px;
+          .desc{
+            font-weight: 300;
+          }
+          .title{
+            font-size:24px;
+    font-weight: 500;
+          }
+        }
+      }
+    }
+    
+    
+}
+}

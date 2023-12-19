@@ -1,0 +1,17 @@
+.trastedby{
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    height: 100px;
+    .container{
+        max-width: 760px;
+        display: flex;
+        align-items: center;
+       margin: auto;
+        gap: 20px;
+        img{
+
+        }
+
+    }
+}

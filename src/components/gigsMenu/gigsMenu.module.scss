@@ -1,0 +1,64 @@
+.gigsmenu{
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 300;
+        color: #555;
+        input{
+            padding: 5px;
+          border: 1px solid lightgrey;
+          border-radius: 5px;
+          outline: none;
+
+          &::placeholder{
+            color: #999;
+          }
+        }
+        button{
+            padding: 5px 10px;
+          background-color: #1dbf73;
+          color: white;
+          border: none;
+          font-weight: 500;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        span{
+            cursor: pointer;
+        }
+        img{
+            cursor: pointer;
+        }
+        .rightmenu{
+            position: absolute;
+            top: 30px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            
+            border-radius: 5px;
+            color: #555;
+            padding: 20px 10px;
+            background-color: white;
+            border: .5px solid lightgray;
+            span{
+                padding: 5px 10px;
+                border-radius: 5px;
+                &:hover{
+                    background-color: rgb(238, 238, 238);
+                }
+            }
+            
+        }
+    }
+}

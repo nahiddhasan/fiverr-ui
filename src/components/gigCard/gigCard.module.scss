@@ -1,0 +1,68 @@
+.gigCard{
+    margin-bottom: 40px;
+    width: 324px;
+    height: 400px;
+    border: 1px solid lightgray;
+    .hp{
+        position: relative;
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 20px;
+        .user{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            cursor: pointer;
+            img{
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+        }
+        .stars{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            img{
+                height: 14px;
+                width: 14px;
+            }
+            span{
+                color: #ffc108;
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
+        hr{
+            height: 0;
+            border: .5px solid rgb(228, 228, 228);
+        }
+        .details{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img{
+                cursor:pointer;
+            }
+            .price{
+                span{
+                    text-transform: uppercase;
+                    color: #999;
+                    font-size: 12px;
+                }
+                h2{
+                    color: #555;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-align: end;
+                }
+            }
+        }
+    }
+}
